@@ -7,11 +7,11 @@
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: hsla(56, 100%, 50%, 0);
-  --first-color-alt: hsl(0, 0%, 6%);
-  --title-color: hsl(355, 4%, 15%);
+  --first-color: hsla(56, 72%, 43%, 0);
+  --first-color-alt: hsl(0, 13%, 30%);
+  --title-color: black;
   --text-color: hsl(0, 0%, 100%);
-  --text-color-light: hsl(355, 4%, 55%);
+  --text-color-light: hsl(0, 18%, 36%);
   --body-color: #fff;
   --container-color: #ffc400;
 
@@ -79,7 +79,7 @@ input {
 body {
   margin: var(--header-height) 0 0 0;
   background-color: var(--body-color);
-  color: var(--text-color);
+  color:hsl(0, 0%, 59%);
   transition: .4s; /*For animation dark mode*/
 }
 
@@ -123,9 +123,9 @@ button {
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
   --title-color: hsl(355, 4%, 95%);
-  --text-color: hsl(355, 4%, 75%);
+  --text-color: white;
   --body-color: hsl(0, 0%, 2%);
-  --container-color: hsl(355, 16%, 16%);
+  --container-color: hsl(54, 96%, 49%);
 }
 
 /*========== 
@@ -150,11 +150,11 @@ body.dark-theme {
 }
 
 .dark-theme .message__button:hover {
-  background-color: var(--first-color-alt);
+  background-color: black;
 }
 
 .dark-theme::-webkit-scrollbar {
-  background: hsl(355, 8%, 30%);
+  background:hsl(355, 4%, 75%);
 }
 
 /*=============== REUSABLE CSS CLASSES ===============*/
@@ -283,7 +283,7 @@ body.dark-theme {
 
 /* Active link */
 .active-link {
-  color: var(--first-color);
+  color:black;
 }
 
 /*=============== HOME ===============*/
@@ -325,7 +325,7 @@ body.dark-theme {
 }
 
 .button:hover {
-  background-color: var(--first-color-alt);
+  background-color: black;
 }
 
 /*=============== GIVING ===============*/
@@ -387,10 +387,11 @@ body.dark-theme {
 .gift__card {
   display: grid;
   position: relative;
-  background-color: var(--container-color);
+  background-color:#ffc400;
   box-shadow: 0 4px 16px hsla(355, 25%, 15%, .1);
   padding: 1.5rem 1rem 1rem;
   border-radius: .75rem;
+  color: black;
 }
 
 .gift__img {
@@ -490,7 +491,7 @@ body.dark-theme {
 /*=============== MESSAGE ===============*/
 .message__container {
   row-gap: 3rem;
-  background-color: var(--first-color);
+  background-color:#ffc400;
   padding: 2.5rem 1.5rem 2.5rem;
   border-radius: 1.25rem;
 }
@@ -516,12 +517,12 @@ body.dark-theme {
 }
 
 .message__button {
-  background-color: var(--title-color);
+  background-color:black;
   width: 100%;
 }
 
 .message__button:hover {
-  background-color: var(--title-color);
+  background-color:#ffc400;
 }
 
 .message__img {
@@ -591,7 +592,7 @@ body.dark-theme {
   margin: 3.5rem 0 1rem 0;
   text-align: center;
   font-size: var(--smaller-font-size);
-  color: var(--text-color-light);
+  color:hsl(0, 0%, 52%);
 }
 
 .footer__img1, 
@@ -631,7 +632,7 @@ body.dark-theme {
 
 .scrollup__icon {
   font-size: 1.25rem;
-  color:hsl(355, 4%, 95%);
+  color:hsl(0, 0%, 0%);
 }
 
 /* Show Scroll Up*/
@@ -642,12 +643,12 @@ body.dark-theme {
 /*=============== SCROLL BAR ===============*/
 ::-webkit-scrollbar {
   width: .6rem;
-  background: hsl(355, 8%, 44%);
+  background:hsl(0, 1%, 59%);
   border-radius: 1rem;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: hsl(355, 32%, 17%);
+  background:#ffc400;
   border-radius: 1rem;
 }
 
@@ -872,3 +873,4 @@ body.dark-theme {
     right: 3rem;
   }
 }
+
