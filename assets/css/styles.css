@@ -357,23 +357,23 @@ body.dark-theme {
 }
 
 /*=============== CELEBRATE ===============*/
-.celebrate__container {
+.comentary_container {
   row-gap: 1rem;
 }
 
-.celebrate__data {
+.comentary__data {
   text-align: center;
 }
 
-.celebrate__title {
+.comentary__title {
   margin-bottom: var(--mb-1-5);
 }
 
-.celebrate__description {
+.comentary__description {
   margin-bottom: var(--mb-2-5);
 }
 
-.celebrate__img {
+.comentary__img {
   width: 280px;
   justify-self: center;
 }
@@ -434,12 +434,13 @@ body.dark-theme {
   text-align: center;
   margin-bottom: 4rem;
   overflow: hidden;
+  color: black;
 }
 
 .new__overlay {
   width: 250px;
   height: 250px;
-  background-color: var(--first-color);
+  background-color:hsl(0, 0%, 73%);
   border-radius: 50%;
   position: absolute;
   top: -5rem;
@@ -682,7 +683,7 @@ body.dark-theme {
     gap: 2.5rem 3.5rem;
   }
 
-  .celebrate__description {
+  .comentary__description {
     padding: 0 4rem;
   }
 
@@ -731,7 +732,7 @@ body.dark-theme {
   }
 
   .home__container,
-  .celebrate__container,
+  .comentary__container,
   .message__container {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -751,11 +752,11 @@ body.dark-theme {
     column-gap: 5rem;
   }
 
-  .celebrate__data, 
-  .celebrate__title {
+  .comentary__data, 
+  .comentary__title {
     text-align: initial;
   }
-  .celebrate__description {
+  .comentary__description {
     padding: 0;
   }
 
@@ -794,10 +795,10 @@ body.dark-theme {
     width: 120px;
   }
 
-  .celebrate__img {
+  .comentary__img {
     width: 450px;
   }
-  .celebrate__description {
+  .comentary__description {
     padding-right: 7rem;
   }
 
