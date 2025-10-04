@@ -283,7 +283,7 @@ body.dark-theme {
 
 /* Active link */
 .active-link {
-  color:black;
+  color:gray;
 }
 
 /*=============== HOME ===============*/
@@ -482,11 +482,11 @@ body.dark-theme {
 
 /*Class Swiper*/
 .swiper-pagination-bullet {
-  background-color: var(--text-color);
+  background-color:hsl(0, 0%, 43%);
 }
 
 .swiper-pagination-bullet-active {
-  background-color: var(--first-color);
+  background-color:#a5a5a5;
 }
 
 /*=============== MESSAGE ===============*/
